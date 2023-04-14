@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+}
+
+.card{
+    border-top: 1px solid black;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.7rem;
+    padding: 0.2rem;
+    width: 26rem;
+
+
+    &__list-number{
+        font-size: 32px;
+    }
+    &__overview{
+        padding-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+        width: 100%;
+    }
+
+    &__title{
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    &__details{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.2rem;
+        font-size: 14px;
+    }
+
+    &__red-closed{
+        color: red;
+    }
+
+    &__green-open{
+        color: green;
+    }
+
+    &__address, &__postcode{
+        font-size: 14px;
+    }
+}
+
+.card:hover{
+    background-color: rgb(248, 222, 219);
+}

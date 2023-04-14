@@ -1,0 +1,19 @@
+.button{
+    border-radius: 0.4rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: darkred;
+    color: white;
+    border: 1px solid darkred;
+    padding: 0.625rem;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.button:hover{
+    cursor: pointer;
+}
